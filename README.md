@@ -1,2 +1,2 @@
-# eks-k8s-config
+# qbconf
 Retrieves EKS config as single binary - perfect for CICD
