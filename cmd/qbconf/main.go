@@ -1,15 +1,12 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/RafPe/qbconf/pkg/token"
 )
 
 func main() {
 
-	token.Token()
-
-	fmt.Println("yey")
+	//token.TokenWithCustomSign()
+	token.TokenWithRoleFromArn("arn:aws:iam::107641125883:role/OrganizationAccountAccessRole")
 
 }
